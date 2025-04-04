@@ -281,6 +281,44 @@ footer{
     }
 }
 
+#sidenav{
+    position: absolute;
+    top: 0;
+    display: none;
+    line-height: 2cm;
+    font-weight: bolder;
+    background: #0e0c0cef;
+    height: 100%;
+    width: 100%;
+    transition: top 0.5s ease;
+    a i{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: none;
+        font-size: 40px;
+        color: #9f9d9d;
+    }
+    a i:hover{
+        color: #6f6d6d;
+    }
+    ul{
+        margin: 100px 0px 0px 80px;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                font-size: 30px;
+                color: #9f9d9d;
+            }
+            a:hover{
+                text-decoration: underline;
+                text-underline-offset: 10px;
+                color: #6f6d6d;
+            }
+        }
+    }
+}
 
 @media (max-width: 768px) {
     main {

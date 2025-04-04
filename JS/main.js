@@ -2,6 +2,8 @@ let about = document.getElementById("about");
 let skills = document.getElementById("skills");
 let project = document.getElementById("project");
 let experience = document.getElementById("experience");
+let openBar = document.getElementById("openbar")
+let closeBar = document.getElementById("closebar")
 
 about.addEventListener('click', function(event){
     event.preventDefault();
@@ -18,4 +20,11 @@ project.addEventListener('click', function(event){
 experience.addEventListener('click', function(event){
     event.preventDefault();
   document.getElementById("myExperience").scrollIntoView({behavior: "smooth"});
+})
+
+openBar.addEventListener('click', function(){
+  document.getElementById('sidenav').style.display = 'block';
+})
+closeBar.addEventListener('click', function(){
+  document.getElementById('sidenav').style.display = 'none';
 })
