@@ -294,7 +294,7 @@ footer{
     i{
         position: absolute;
         right: 0;
-        bottom: 0;
+        top: 0;
         background: none;
         font-size: 40px;
         color: #9f9d9d;
